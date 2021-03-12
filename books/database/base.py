@@ -1,4 +1,4 @@
-from sqlalchemy.ext.declarative import  declarative_base
+from sqlalchemy.ext.declarative import declarative_base
 
 from .db_session import db_session
 

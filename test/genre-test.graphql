@@ -1,0 +1,12 @@
+{
+  booksByGenre(name: "Fantasy") {
+    name
+    author
+  }
+}
+{
+  booksByGenre(name: "Political Fiction") {
+    name
+    author
+  }
+}

@@ -1,5 +1,5 @@
 from sqlalchemy import Column, ForeignKey, Integer, String
-from sqlalchemy.orm import  backref, relationship
+from sqlalchemy.orm import backref, relationship
 
 from ..database.base import Base
 from ..models.genres import Genres

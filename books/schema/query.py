@@ -15,14 +15,14 @@ class Query(graphene.ObjectType):
     def resolve_books_by_name(parent, info, **args):
         q = args.get('name')
 
-        books_query = Books.get_guery(info)
+        books_query = Books.get_query(info)
 
         return books_query.filter(BooksModel.name.contains(q)).all()
 
     @staticmethod
     def resolve_books_by_genre(parent, info, **args):
-        q = args.get('genre')
+        q = args.get('name')
 
-        books_query = Books.get_guery(info)
+        books_query = Books.get_query(info)
 
         return books_query.join(GenresModel).filter(GenresModel.name == q).all()

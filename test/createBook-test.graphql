@@ -1,0 +1,9 @@
+mutation {
+  createBook(input: { name: "Jungle Book", author: "Rudyard Kipling" }) {
+    book {
+      id
+      name
+      author
+    }
+  }
+}

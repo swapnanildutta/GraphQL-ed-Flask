@@ -5,7 +5,7 @@ from ..models.books import Books as BooksModel
 from ..types.books import Books, CreateBookInput
 from ..utils.input_to_dictionary import input_to_dictionary
 
-class  CreateBook(graphene.Mutation):
+class CreateBook(graphene.Mutation):
     book = graphene.Field(lambda: Books)
     ok = graphene.Boolean()
 

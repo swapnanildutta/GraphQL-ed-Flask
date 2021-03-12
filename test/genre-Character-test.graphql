@@ -1,0 +1,13 @@
+{
+  booksByGenre(name: "Political Fiction") {
+    name
+    author
+    characters {
+      edges {
+        node {
+          name
+        }
+      }
+    }
+  }
+}
