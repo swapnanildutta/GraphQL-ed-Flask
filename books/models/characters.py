@@ -6,7 +6,7 @@ from ..models.books import Books
 
 class Characters(Base):
     __tablename__ = 'characters'
-    id = Column(Integer, primary_key)
+    id = Column(Integer, primary_key=True)
     name = Column(String)
     book_id = Column(Integer, ForeignKey('books.id'))
     book = relationship(
