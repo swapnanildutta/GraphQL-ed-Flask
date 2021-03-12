@@ -2,7 +2,7 @@
 
 Just trying out the Flask(Python) and GraphQL bindings for the first time.
 
-#### Some Theory, Just Before Getting Started
+### Some Theory, Just Before Getting Started
 
 <p align="center">
 <img src='assets/graphql.png' height=200>
@@ -24,7 +24,7 @@ Just trying out the Flask(Python) and GraphQL bindings for the first time.
 >
 > Flask is a micro web framework written in Python. It is classified as a microframework because it does not require particular tools or libraries. It has no database abstraction layer, form validation, or any other components where pre-existing third-party libraries provide common functions. -(https://flask.palletsprojects.com/en/1.1.x/)
 
-#### How To Use/Run/Execute
+### How To Use/Run/Execute
 
 1. Either fork the repository or directly clone the repository onto your local machine using
 
@@ -65,6 +65,6 @@ $python3 main.py
  * Debugger PIN: 290-834-526
 ```
 
-##### Reference
+#### Reference
 
 - [Python-Flask-with-GraphQL-Server](https://www.notion.so/Python-Flask-with-GraphQL-Server-implementing-SQLAlchemy-graphene-and-SQLite-by-Pablo-A-Del-V-b0f99904b930444c93288b9d07bd2d1a#5eba2b3417ee499db5a4b97b261c9d5b)
