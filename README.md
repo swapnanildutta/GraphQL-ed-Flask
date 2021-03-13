@@ -65,6 +65,34 @@ Just trying out the Flask(Python) and GraphQL bindings for the first time.
     * Debugger PIN: 290-834-526
    ```
 
+### Output
+
+Here are some of the GraphQL queries for testing :
+
+- [Creating new Book entry on Browser](test\createBook-test.graphql)
+
+<p align="center">
+<img src="assets\create-book.jpg" height="300">
+</p>
+
+- [Search Book by Genre on Browser](test\genre-test.graphql)
+
+<p align="center">
+<img src="assets\show-genre.jpg" height="300">
+</p>
+
+- [Search Book by Genre on Postman](test\genre-test.graphql)
+
+<p align="center">
+<img src="assets\postman-search.jpg" height="500">
+</p>
+
+- [Creating new Book entry on Postman](test\createBook-test.graphql)
+
+<p align="center">
+<img src="assets\add-book-postman.jpg" height="500">
+</p>
+
 #### Reference
 
 - [Python-Flask-with-GraphQL-Server](https://www.notion.so/Python-Flask-with-GraphQL-Server-implementing-SQLAlchemy-graphene-and-SQLite-by-Pablo-A-Del-V-b0f99904b930444c93288b9d07bd2d1a#5eba2b3417ee499db5a4b97b261c9d5b)
